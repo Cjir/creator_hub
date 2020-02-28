@@ -1,3 +1,38 @@
-.container {
-   border: 1pm red solid;
-}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2d3047; }
+
+h1, h2 {
+  font-family: "Zilla Slab", serif; }
+
+h4, h5, h3 {
+  font-family: "Playfair Display", serif; }
+
+.navbar {
+  background-color: #F9FAFC; }
+  .navbar .navbar-nav a {
+    color: #ff9b71;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0.15em; }
+  .navbar .navbar-nav a:link {
+    text-decoration: none; }
+  .navbar .navbar-nav a:hover {
+    color: #2d3047;
+    border-bottom: solid 2px #2d3047;
+    transition: .25s ease-in-out; }
+
+div .blog-feed {
+  background-color: #F9FAFC;
+  color: #ff9b71;
+  line-height: 1.25em; }
+  div .blog-feed h3 {
+    color: #2d3047;
+    font-weight: 900;
+    letter-spacing: 0.15em; }
+
+div .card:hover {
+  border: solid 5px #ed217c;
+  background-color: #F9FAFC;
+  color: #ed217c;
+  transition: .25s ease-in-out; }

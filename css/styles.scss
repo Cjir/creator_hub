@@ -1,0 +1,67 @@
+$color-primary: #ff9b71;
+$color-secondary: #ed217c;
+$color-pale: #F9FAFC;
+$color-mid: #00c6b4;
+$color-dark: #2d3047;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$color-teal: #17a2b8;
+$body-font: "Roboto", sans-serif;
+$header-font: "Zilla Slab", serif;
+$subheader-font: "Playfair Display", serif;
+$font-medium: 900;
+$letter-space-medium: 0.15em;
+
+
+body {
+   font-family: $body-font;
+   color: $color-dark;
+}
+h1, h2{
+   font-family: $header-font;
+}
+
+h4, h5, h3 {
+   font-family: $subheader-font;
+}
+
+.navbar {
+   background-color: $color-pale;
+
+   // navbar navigation css
+   .navbar-nav {
+      a{
+         color:$color-primary;
+         font-size: 16px;
+         font-weight: $font-medium;
+         letter-spacing: $letter-space-medium;
+      }
+      a:link {
+         text-decoration: none;
+      }
+      a:hover {
+         color: $color-dark;
+         border-bottom: solid 2px $color-dark;
+         transition: .25s ease-in-out;
+      }
+   }
+}
+
+
+div {
+   .blog-feed {
+      background-color: $color-pale;
+      color: $color-primary;
+      line-height: 1.25em;
+      h3 {
+         color: $color-dark;
+         font-weight: $font-medium;
+         letter-spacing: 0.15em;
+      }
+   }
+   .card:hover {
+      border: solid 5px $color-secondary;
+      background-color: $color-pale;
+      color: $color-secondary;
+      transition: .25s ease-in-out;
+   }
+}
