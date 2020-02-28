@@ -1,7 +1,7 @@
 {
-  "name": "nucampsite",
+  "name": "creatorhub",
   "version": "1.0.0",
-  "description": "This is website for the fictional compsites review site Nucamp",
+  "description": "Marketplace meets social media",
   "main": "index.html",
   "scripts": {
     "lite": "lite-server",
