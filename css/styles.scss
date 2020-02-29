@@ -31,7 +31,7 @@ h4, h5, h3 {
    .navbar-nav {
       a{
          color:$color-primary;
-         font-size: 16px;
+         font-size: .75em;
          font-weight: $font-medium;
          letter-spacing: $letter-space-medium;
       }
@@ -40,16 +40,36 @@ h4, h5, h3 {
       }
       a:hover {
          color: $color-dark;
-         border-bottom: solid 2px $color-dark;
+         border-bottom: solid 0.125em $color-dark;
          transition: .25s ease-in-out;
       }
    }
 }
 
+// Your Post-It Update Card
+.post-it {
+      li {
+         a{
+            color:$color-dark;
+            font-size: .75em;
+            font-weight: $font-medium;
+            letter-spacing: $letter-space-medium;
+         }
+         a:link {
+            text-decoration: none;
+         }
+         a:hover {
+            color: $color-primary;
+            text-decoration: underline;
+            transition: .25s ease-in-out;
+         }
+      }
+}
+
 
 div {
    .blog-feed {
-      background-color: $color-pale;
+
       color: $color-primary;
       line-height: 1.25em;
       h3 {
@@ -58,10 +78,81 @@ div {
          letter-spacing: 0.15em;
       }
    }
-   .card:hover {
-      border: solid 5px $color-secondary;
-      background-color: $color-pale;
-      color: $color-secondary;
+   .blog-feed:hover {
+      color: $color-dark;
       transition: .25s ease-in-out;
+      .card-title {
+         background-color: $color-secondary;
+         color: $color-pale;
+      }
+      p {
+         text-decoration: underline
+      }
+      a:link {
+         text-decoration: none;
+         }
+   }
+
+}
+
+.profile-div {
+   a{
+      color:$color-dark;
+      font-size: .7em;
+      font-weight: $font-medium;
+      letter-spacing: $letter-space-medium;
+   }
+   a:link {
+      text-decoration: none;
+   }
+   a:hover {
+      color: $color-primary;
+      text-align: underline;
+      transition: .25s ease-in-out;
+   }
+   card-body:hover {
+      background-color: $color-pale;
+   }
+}
+
+div {
+   
+   .market-place {
+      background-color: $color-pale;
+      transition: 2s ease-in-out;
+
+      h2 {
+         text-align: center;
+         button {
+         text-decoration: none;
+         color: $color-pale;
+         font-style: $subheader-font;
+         font-size: 0.5em;
+         }
+         button:link {
+            text-decoration: none;
+         }
+         button:hover {
+            color: $color-pale;
+            text-decoration: none;
+            text-shadow: 0.125em 0.125em $color-dark;
+            transition: .5s ease-in-out;
+         }
+      }
+      .card-header {
+       background-color: $color-secondary;  
+      }
+   }
+}
+
+
+.brand-footer {
+   div {
+      ul {
+         a:link {
+            text-decoration: none;
+            font-size: .75em;
+         }
+      }
    }
 }
